@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Guess-Me</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+  <header>
+    <img src="img/layout/logo.png" />
+    <h1 class="guess-who">Guess Who</h1>
+  </header>
+
+  <main>
+    <div class="game-start-div">
+      <section class="game-start">
+        <h2 class="think-of">Think of Someone...</h2>
+        <button class="btn btn-start">I'm Ready!</button>
+      </section>
+    </div>
+
+    <section class="quest" style="display: none">
+      <h3></h3>
+      <button class="btn btn-yes">Yes</button>
+      <button class="btn btn-no">No</button>
+    </section>
+
+    <section class="new-quest" style="display: none">
+      <h2 class="giveup">OK, I gave up...</h2>
+
+      <div class="form-div">
+        <form class="ending-form">
+          <p for="newGuess">You thought of: </p>
+          <input name="newGuess" type="txt" id="newGuess" placeholder="What's the answer?" required />
+
+          <p for="newQuest">Question to differentiate:</p>
+          <input name="newQuest" type="txt" id="newQuest" placeholder="What's the question?" required />
+
+          <button type="submit" class="btn btn-add-guess">Make me Smarter!</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>CoffeRights &copy; 2020</footer>
+
+  <script src="lib/jquery/jquery.js"></script>
+
+  <script src="js/utils.js"></script>
+  <script src="js/quest-service.js"></script>
+  <script src="js/quest-controller.js"></script>
+</body>
+
+</html>

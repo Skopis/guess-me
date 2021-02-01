@@ -1,0 +1,157 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #fcf064;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #73aedb;
+  text-align: center;
+  color: #fcf064;
+  font-size: 3em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 2;
+  display: flex;
+}
+
+.guess-who {
+  margin: 0;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.8em;
+  color: #59a2da;
+}
+
+img {
+  max-width: 150px;
+}
+
+.giveup {
+  margin: 0 0 10px 0;
+}
+
+input {
+  border-radius: 10%;
+  border: groove #73aedb;
+  background-color: #b3cbdd;
+}
+p{
+  margin: 10px 0 5px 0;
+}
+.think-of {
+  margin: 0 0 10px 0;
+  font-size: 1.8em;
+  color: #000000;
+}
+
+#newGuess, #newQuest {
+  margin: 0 7px;
+  width: 250px;
+  padding: 0;
+}
+
+.game-start-div {
+  position: relative;
+  left: auto;
+  top: 0vh;
+}
+
+.form-div {
+  position: relative;
+  left: auto;
+  top: 0vh;
+  background-color:#73aedb;
+  border-radius: 10%;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.new-quest{
+  position: absolute;
+  padding: 20px;
+}
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+
+.ending-form label {
+  font-weight: bold;
+}
+
+.ending-form input, label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: #73aedb;
+  font-size: 1.1em;
+  color: #fcf064;
+}
+
+.btn-yes {
+  font-size: 1.2em;
+  color: #fcf064;
+  background-color: #72bb83;
+}
+
+.btn-no {
+  font-size: 1.2em;
+  color: #fcf064;
+  background-color: #c2898f;
+}
+
+.btn-add-guess {
+  font-size: medium;
+  background-color: #fcf064;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  color: #030303;
+}
